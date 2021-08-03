@@ -3,7 +3,7 @@ import "../products/Products.css";
 import { useDispatch } from "react-redux";
 import ProductBuy from "./ProductBuy";
 
-function Products({id, name, cost, url, onClickAddProduct}) {
+const Products = ({ id, name, cost, url, onClickAddProduct }) => {
   const dispatch = useDispatch();
 
   const addProduct = () => {
@@ -26,11 +26,7 @@ function Products({id, name, cost, url, onClickAddProduct}) {
         <div className="product">
           <div className="card-body">
             <div className="immg">
-              <img
-                src={url}
-                className="img"
-                alt="#"
-              ></img>
+              <img src={url} className="img" alt="#"></img>
             </div>
             <h5>{name}</h5>
           </div>
@@ -39,10 +35,9 @@ function Products({id, name, cost, url, onClickAddProduct}) {
           </div>
           <ProductBuy clickButton={addProduct} />
         </div>
-        
       </div>
     </div>
   );
-}
+};
 
 export default Products;

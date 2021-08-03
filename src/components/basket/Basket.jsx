@@ -6,7 +6,8 @@ import "../basket/Basket.css";
 import { withRouter } from "react-router-dom";
 import BasketItem from "../BasketItem/BasketItem";
 import { useBasket } from "./useBasket";
-function Basket() {
+
+const Basket = () => {
   const dispatch = useDispatch();
   const { items, totalItems, addedProducts } = useBasket();
 
@@ -17,7 +18,7 @@ function Basket() {
   const onMinusItem = (id) => {
     dispatch(minusCartItem(id));
   };
-console.log(totalItems)
+  console.log(totalItems);
 
   return (
     <div>
@@ -60,6 +61,6 @@ console.log(totalItems)
       )}
     </div>
   );
-}
+};
 
 export default withRouter(Basket);

@@ -1,13 +1,13 @@
 import React from "react";
-import './Price.css'
+import "./Price.css";
 import { NavLink } from "react-router-dom";
-import { useSelector } from 'react-redux'
+import { useSelector } from "react-redux";
 
-function Price() {
-    const {totalItems, totalPrice} = useSelector(({basket}) => ({
-        totalItems:basket.totalItems,
-        totalPrice:basket.totalPrice,
-    }))
+const Price = () => {
+  const { totalItems, totalPrice } = useSelector(({ basket }) => ({
+    totalItems: basket.totalItems,
+    totalPrice: basket.totalPrice,
+  }));
 
   return (
     <div>
@@ -30,12 +30,12 @@ function Price() {
           </svg>
         </NavLink>
         <div className="price">
-            <p>{totalItems}</p>
-            <p>&nbsp;({totalPrice}$)</p>
+          <p>{totalItems}</p>
+          <p>&nbsp;({totalPrice}$)</p>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Price;

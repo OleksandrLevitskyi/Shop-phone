@@ -1,7 +1,7 @@
 import React from "react";
 import "./BasketItem.css";
 
-function BasketItem({
+const BasketItem = ({
   name,
   id,
   totalItems,
@@ -9,7 +9,7 @@ function BasketItem({
   totalPrice,
   onMinus,
   onPlus,
-}) {
+}) => {
   const handlePlusItem = () => {
     onPlus(id);
   };
@@ -43,6 +43,6 @@ function BasketItem({
       </div>
     </div>
   );
-}
+};
 
 export default BasketItem;
