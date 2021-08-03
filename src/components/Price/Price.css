@@ -1,0 +1,11 @@
+.price {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.basket_container {
+    max-width: 40px;
+    max-height: 100px;
+    margin-top: 12px;
+}

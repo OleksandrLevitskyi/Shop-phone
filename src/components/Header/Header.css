@@ -1,0 +1,28 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #007bff;;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.home {
+    font-size: 20px;
+    font-weight: bold;
+}

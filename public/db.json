@@ -1,0 +1,16 @@
+{
+  "products": [
+    {"id": 1, "name": "iphone xr", "cost": 500, "quantity": 0, "url": "https://i8.rozetka.ua/goods/16754298/apple_iphone_xr_128gb_red_mrye2_images_16754298898.jpg" },
+    {"id": 2, "name": "iphone 11 128GB", "cost": 800, "quantity": 0, "url": "https://i2.rozetka.ua/goods/20625790/copy_apple_mwm02_5fa56860a1549_images_20625790906.jpg" },
+    {"id": 3, "name": "iphone 12 Pro Max ", "cost": 1100, "quantity": 0, "url": "https://i8.rozetka.ua/goods/20300879/apple_iphone_12_pro_max_512gb_pacific_blue_images_20300879571.jpg" },
+    {"id": 4, "name": "macbook pro 2019", "cost": 1700, "quantity": 0, "url": "https://i8.rozetka.ua/goods/17178631/apple_mv972_images_17178631709.jpg" },
+    {"id": 5, "name": "macbook pro 2019 ", "cost": 1200, "quantity": 0, "url": "https://estore.ua/media/catalog/product/cache/8/small_image/295x295/9df78eab33525d08d6e5fb8d27136e95/m/b/mbp16touch-space-select-201911-2.jpeg" },
+    {"id": 6, "name": "iMac 2020", "cost": 2000, "quantity": 0, "url": "https://i8.rozetka.ua/goods/19460558/copy_apple_mhk23_5f2d49a864c25_images_19460558017.jpg" },
+    {"id": 7, "name": "iPad Pro 2020", "cost": 850, "quantity": 0, "url": "https://i8.rozetka.ua/goods/21304529/271918006_images_21304529516.jpg" },
+    {"id": 8, "name": "iPad Air 2020", "cost": 650, "quantity": 0, "url": "https://i8.rozetka.ua/goods/19911415/apple_myfq2rk_a_images_19911415663.jpg" },
+    {"id": 9, "name": "applewatch nike 44mm", "cost": 300, "quantity": 0, "url": "https://bigmag.ua/image/catalog/archive/data/NiaVente/9/1795648325.jpg" },
+    {"id": 10, "name": "Apple Watch SE", "cost": 350, "quantity": 0, "url": "https://i8.rozetka.ua/goods/19910956/apple_watch_se_44mm_gold_images_19910956441.jpg" },
+    {"id": 11, "name": "airpods pro", "cost": 200, "quantity": 0, "url": "https://i8.rozetka.ua/goods/14779697/apple_airpods_pro_images_14779697592.jpg" },
+    {"id": 12, "name": "airpods", "cost": 150, "quantity": 0, "url": "https://i1.rozetka.ua/goods/11800391/apple_mv7n2ru_a_images_11800391151.jpg" }
+  ]
+}

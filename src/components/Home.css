@@ -1,0 +1,17 @@
+.homePage {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.info_products {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 66px;
+    grid-row-gap: 40px;
+    max-width: 1500px;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    
+}

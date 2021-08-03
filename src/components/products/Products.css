@@ -1,0 +1,45 @@
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 66px;
+    grid-row-gap: 40px;
+}
+
+.product {
+    border: 1px solid silver;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.img {
+    width: 160px;
+    height: 200px;
+}
+
+.cost {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.basket_btn {
+    width: 300px;
+    height: 40px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+}

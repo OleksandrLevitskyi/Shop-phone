@@ -1,0 +1,47 @@
+.basket_picture {
+    width: 160px;
+}
+
+.basket_img {
+    height: 120px;
+    width: 90px;
+}
+
+.basket_name {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.basket_price {
+    height: 120px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.basket_button {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    width: 35px;
+    height: 35px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.minus {
+    width: 35px;
+    height: 35px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
